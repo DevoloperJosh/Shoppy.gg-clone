@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sect1{
+    background: url(/img/hometop\ background.png);
+    height:110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav>*{
+    margin: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+
+.n-left{
+    flex: 1;
+    display: flex;
+}
+
+.n-left ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+}
+.n-left img{
+    margin-right: 12px;
+    margin-top: 2px;
+}
+.n-left ul li{
+    width: 120px;
+    list-style: none;
+}
+.n-left ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+.signup{
+    padding: 11px 28px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #85a92c;
+    margin-top: 12px;
+    border: none;
+    margin-left:0.5cm;
+}
+.signup:hover{
+    background-color: #688d0c;
+    cursor: pointer;
+}
+.signin{
+    
+    background-color:rgb(13,27,37) ;
+    padding: 11px 30px;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 12px;
+}
+.signin:hover{
+    border: 2px solid #85a92c  ;
+    cursor: pointer;
+}
+.s-left{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    
+}
+.s-left>*{
+    gap: 2rem;
+    margin:0 40px 0 40px;
+    position: relative;
+}
+.s-left p{
+    font-size: large;
+}
+.s-right{
+    flex: 1;
+    margin-right: 70px;
+}
+.s-right img{
+    transform: scale(1.1);
+}
+
+.sect2{
+    display: flex;
+}
+.create{
+    width:180px;
+    background-color: #85a92c;
+    color: #ffff;
+    padding: 15px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button.apple{
+    border-radius: 10px;
+    background-color: rgb(13,27,37);
+    color: white;
+    padding: 8px 36px;
+    width:180px;
+
+    cursor: pointer;
+    border: 1px solid white;
+    margin-left: 50px;
+}
+button.google{
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(13,27,37);
+    color: white;
+    padding: 8px 30px;
+    margin-right:40px;
+    width:180px;
+    border: 1px solid white;
+}
+.v{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: -50px;
+    justify-content: flex-start;
+}
+.sect3{
+    margin-top: 17rem;
+    height:50vh;
+}
+.sect4{
+    background-color: rgb(247,250,252);
+}
+.A{
+    color: #688d0c;
+    font-size:  0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    text-align: center;
+    
+}
+.B{
+    color: rgb(81,98,106);
+    line-height: 1.25;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.C{
+    line-height: 1.75rem;
+    font-family: Camphor, -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Oxygen, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+
+}
+.D{
+    color: rgb(62,176,239);
+    font-size:  0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    text-align: center;
+
+}
+.E{
+    color: rgb(81,98,106);
+    line-height: 1.25;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.F{
+    line-height: 1.75rem;
+    font-family: Camphor, -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Oxygen, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+.sect4bottom{
+    display: flex;
+    align-items: center;
+}
+.sect4tick{
+    list-style-type: none;
+}
+.j{
+    align-content: center;
+    list-style-image: url(/img/downloader.png);
+    margin: 12px;
+}
+.deli{
+    background-color: #ffff;
+    color: rgb(62,176,241);
+    padding: 12px 35px;
+    border-radius: 10px;
+    border:1.5px solid rgb(62,176,241);
+    cursor: pointer;
+}
+.G{
+    color: rgb(173,38,187);
+    font-size:  0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    text-align: center;
+}
+.H{
+    color: rgb(81,98,106);
+    line-height: 1.25;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+.I{
+    line-height: 1.75rem;
+    font-family: Camphor, -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Oxygen, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+.sect5bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sect5tick{
+    list-style-type: none;
+}
+.f{
+    align-content: center;
+    list-style-image: url(/img/downloaded.png);
+    margin: 12px;
+}
+.bali{
+    background-color: #ffff;
+    color: rgb(173,38,187);
+    padding: 12px 35px;
+    border-radius: 10px;
+    border:1.5px solid rgb(173,38,187);
+    cursor: pointer;
+}
+.J{
+    color: rgb(133,169,44);
+    font-size:  0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    text-align: center;
+}
+.K{
+    color: rgb(81,98,106);
+    line-height: 1.25;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+.L{
+    line-height: 1.75rem;
+    font-family: Camphor, -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Oxygen, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+.sect6bottom{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.sect6tick{
+    list-style-type: none;
+    margin-bottom: 6rem;
+    margin-left: 2rem;
+}
+.m{
+    align-content: center;
+    list-style-image: url(/img/download.png);
+    margin: 15px;
+}
+.sect6img{
+    margin-left: 2rem;
+}
+.dali{
+    
+    background-color: #ffff;
+    color: rgb(133,169,44);
+    padding: 12px 35px;
+    border-radius: 10px;
+    border:1.5px solid rgb(133,169,44);
+    cursor: pointer;
+}
+.sect7{
+    background-color: rgb(247,250,252);
+    margin-bottom: 100px;
+}
+.M{
+    color: rgb(133,169,44);
+    font-size:  0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25rem;
+    text-align: center;
+}
+.N{
+    color: rgb(81,98,106);
+    line-height: 1.25;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+.O{
+    line-height: 1.75rem;
+    font-family: Camphor, -apple-system, BlinkMacSystemFont, "Proxima Nova", "Segoe UI", Roboto, Oxygen, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+}
+.sect7bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+.bitcoin{
+    align-items: center;
+    background-color: rgb(255 255 255);
+    margin: 0.75rem 2rem;
+    border-radius: 10px;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(229, 231, 235);
+    border-image: initial;
+}
+.paypal{
+    background-color: rgb(255 255 255);
+    margin: 0.75rem 2rem;
+    border-radius: 10px;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(229, 231, 235);
+    border-image: initial;
+}
+.litecoin{
+    background-color: rgb(255 255 255);
+    margin: 0.75rem 2rem;
+    border-radius: 10px;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(229, 231, 235);
+    border-image: initial;
+}
+.stripe{
+    background-color: rgb(255 255 255);
+    margin: 0.75rem 2rem;                                                               
+    border-radius: 10px;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(229, 231, 235);
+    border-image: initial;
+}
+.ethereum{
+    background-color: rgb(255 255 255);
+    margin: 0.75rem 2rem;                                                               
+    border-radius: 10px;
+    padding: 1.3rem;
+    box-sizing: border-box;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(229, 231, 235);
+    border-image: initial;
+}
+.parent{
+    position: relative;
+}
+
+.sect8{
+    position: absolute;
+    /* left: 180px; */
+    top: -130px;
+    right: -15px;
+}
+.sect8{
+    width: 90%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+   
+}
+.sect8{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12rem;border-radius: 12px;
+    height:150px;
+    align-items: center;
+    padding: 35px;
+    border: .1px solid rgb(230, 218, 218);
+    margin: 6rem;
+}
+.l-sect8{
+    margin-left: 2.3rem;
+}
+.r-sect8{
+    margin-right: 2.3rem;
+}
+.P{
+    color: rgb(81,98,106);;
+}
+.creat{
+padding: 11px 28px;
+color: rgb(133,169,44);
+font-size: 16px;
+font-weight: 600;
+text-align: center;
+border-radius: 7px;
+background-color: white;
+border: 1.5px solid rgb(133,169,44);
+cursor: pointer;
+}
+.sect9{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sect9{
+    background: url(/img/footer\ background.png);
+    height:60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+}
+.sect9A>*{
+    margin: 20px;
+    color: rgb(139,163,145);
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+.socials a{
+    color: white;
+}
+.sect9B{
+    list-style-type: none;
+    color: #ffff;
+    padding-top: 2rem;
+
+}
+.sect9C{
+    list-style-type: none;
+    color: #ffff;
+    padding-top: 2rem;
+
+}
+.sect9D{
+    list-style-type: none;
+    color: #ffff;
+    padding-top: 2rem;
+
+}
+.sect9E{
+    list-style-type: none;
+    color: #ffff;
+    padding-top: 2rem;
+
+}
+.sect9 li a{
+    text-decoration: none;
+    color: rgb(139,163,145);
+}
+.sect9B li {
+    margin-top: 20px;
+}
+.sect9C li {
+    margin-top: 20px;
+}
+.sect9D li {
+    margin-top: 20px;
+}
+.sect9E li {
+    margin-top: 20px;
+}
+.sect10{
+    background-color: rgb(18,28,35);
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+.sect10left p{
+    color: rgb(217,255,255);
+    margin-left: -20px;
+}
+.sect10right{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.sect10right li a{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(139,163,145);
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+
+
+
+ 
